@@ -1,9 +1,9 @@
-package Q1.pizza;
+package pizza;
 
 import java.util.Arrays;
 import java.util.List;
 
-public class PizzaPresunto implements Ipizza {
+public class PizzaPresunto implements IPizza {
 
     public List<String> ingredientes;
 

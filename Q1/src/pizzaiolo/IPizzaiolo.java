@@ -1,7 +1,7 @@
-package Q1.pizzaiolo;
+package pizzaiolo;
 
 import Q1.pizza.Ipizza;
 
-public interface Ipizzaiolo {
+public interface IPizzaiolo {
     Ipizza cozinharPizza();
 }

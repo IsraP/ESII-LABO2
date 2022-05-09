@@ -1,7 +1,7 @@
-package Q1.pizza;
+package pizza;
 
 import java.util.List;
 
-public interface Ipizza {
+public interface IPizza {
     List<String> getIngredientes();
 }

@@ -2,30 +2,30 @@
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # User-specific stuff
-.idea/**/workspace.xml
-.idea/**/tasks.xml
-.idea/**/usage.statistics.xml
-.idea/**/dictionaries
-.idea/**/shelf
+Q1/.idea/**/workspace.xml
+Q1/.idea/**/tasks.xml
+Q1/.idea/**/usage.statistics.xml
+Q1/.idea/**/dictionaries
+Q1/.idea/**/shelf
 
 # AWS User-specific
-.idea/**/aws.xml
+Q1/.idea/**/aws.xml
 
 # Generated files
-.idea/**/contentModel.xml
+Q1/.idea/**/contentModel.xml
 
 # Sensitive or high-churn files
-.idea/**/dataSources/
-.idea/**/dataSources.ids
-.idea/**/dataSources.local.xml
-.idea/**/sqlDataSources.xml
-.idea/**/dynamic.xml
-.idea/**/uiDesigner.xml
-.idea/**/dbnavigator.xml
+Q1/.idea/**/dataSources/
+Q1/.idea/**/dataSources.ids
+Q1/.idea/**/dataSources.local.xml
+Q1/.idea/**/sqlDataSources.xml
+Q1/.idea/**/dynamic.xml
+Q1/.idea/**/uiDesigner.xml
+Q1/.idea/**/dbnavigator.xml
 
 # Gradle
-.idea/**/gradle.xml
-.idea/**/libraries
+Q1/.idea/**/gradle.xml
+Q1/.idea/**/libraries
 
 # Gradle and Maven with auto-import
 # When using Gradle or Maven with auto-import, you should exclude module files,
@@ -44,7 +44,7 @@
 cmake-build-*/
 
 # Mongo Explorer plugin
-.idea/**/mongoSettings.xml
+Q1/.idea/**/mongoSettings.xml
 
 # File-based project format
 *.iws
@@ -59,10 +59,10 @@ out/
 atlassian-ide-plugin.xml
 
 # Cursive Clojure plugin
-.idea/replstate.xml
+Q1/.idea/replstate.xml
 
 # SonarLint plugin
-.idea/sonarlint/
+Q1/.idea/sonarlint/
 
 # Crashlytics plugin (for Android Studio and IntelliJ)
 com_crashlytics_export_strings.xml
@@ -71,7 +71,7 @@ crashlytics-build.properties
 fabric.properties
 
 # Editor-based Rest Client
-.idea/httpRequests
+Q1/.idea/httpRequests
 
 # Android studio 3.1+ serialized cache file
-.idea/caches/build_file_checksums.ser
+Q1/.idea/caches/build_file_checksums.ser

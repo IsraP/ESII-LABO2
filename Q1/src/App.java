@@ -1,5 +1,3 @@
-package Q1;
-
 import Q1.pizza.PizzaCalabresa;
 
 public class App {

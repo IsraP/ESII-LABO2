@@ -1,9 +1,9 @@
-package Q1.pizzaiolo;
+package pizzaiolo;
 
 import Q1.pizza.Ipizza;
 import Q1.pizza.PizzaCalabresa;
 
-public class PizzaioloCalabresa implements Ipizzaiolo{
+public class PizzaioloCalabresa implements IPizzaiolo {
 
     @Override
     public Ipizza cozinharPizza() {
