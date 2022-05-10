@@ -1,0 +1,12 @@
+Escreva classes para satisfazer os seguintes papéis do padrão Builder: 
+! Client:  recebe  como  parâmetros  o  nome,  endereço,  telefone  e  e-mail  de  uma  pessoa,  solicita  ao 
+director que construa informações de contato, recupera a informação do builder e imprime; 
+! Director:  recebe  como  parâmetro  o builder  a  ser  utilizado  e  os  dados  de  contato.  Manda  o builder 
+construir o contato; 
+! Builder: constrói o contato. Existem três tipos de contato e um builder para cada tipo: 
+o ContatoInternet: armazena nome e e-mail; 
+o ContatoTelefone: armazena nome e telefone; 
+o ContatoCompleto: armazena nome, endereço, telefone e e-mail. 
+A classe que representa o papel client deve ter o método main() que irá criar um director e um builder de 
+cada  tipo.  Em  seguida,  deve  pedir  ao  director  que  crie  um  contato  de  cada  tipo  e  imprimi-los  (use  o 
+toString() da classe que representa a informação de contato). 
