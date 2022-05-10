@@ -1,7 +1,9 @@
 package pizzaiolo;
 
-import Q1.pizza.Ipizza;
+import calzone.ICalzone;
+import pizza.IPizza;
 
 public interface IPizzaiolo {
-    Ipizza cozinharPizza();
+    IPizza cozinharPizza();
+    ICalzone cozinharCalzone();
 }

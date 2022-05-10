@@ -4,15 +4,21 @@ import java.util.Arrays;
 import java.util.List;
 
 public class PizzaPresunto implements IPizza {
-
-    public List<String> ingredientes;
+    private List<String> ingredientes;
+    private String nome;
 
     public PizzaPresunto(){
-        ingredientes = Arrays.asList("queijo ", "presunto ", "tomate");
+        nome = "Pizza de presunto";
+        ingredientes = Arrays.asList("queijo", "presunto", "tomate");
     }
 
     @Override
     public List<String> getIngredientes() {
         return ingredientes;
+    }
+
+    @Override
+    public String getNome() {
+        return nome;
     }
 }

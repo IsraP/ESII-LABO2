@@ -1,13 +1,20 @@
 package pizzaiolo;
 
-import Q1.pizza.Ipizza;
-import Q1.pizza.PizzaCalabresa;
+import calzone.CalzoneCalabresa;
+import calzone.ICalzone;
+import pizza.IPizza;
+import pizza.PizzaCalabresa;
 
 public class PizzaioloCalabresa implements IPizzaiolo {
 
     @Override
-    public Ipizza cozinharPizza() {
+    public IPizza cozinharPizza() {
         return new PizzaCalabresa();
     }
-    
+
+    @Override
+    public ICalzone cozinharCalzone() {
+        return new CalzoneCalabresa();
+    }
+
 }
