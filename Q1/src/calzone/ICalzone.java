@@ -1,8 +1,8 @@
-package pizza;
+package calzone;
 
 import java.util.List;
 
-public interface IPizza {
+public interface ICalzone {
     List<String> getIngredientes();
 
     String getNome();

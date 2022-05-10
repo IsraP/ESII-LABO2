@@ -1,15 +1,15 @@
-package pizza;
+package calzone;
 
 import java.util.Arrays;
 import java.util.List;
 
-public class PizzaCalabresa implements IPizza {
+public class CalzonePresunto implements ICalzone{
     private List<String> ingredientes;
     private String nome;
 
-    public PizzaCalabresa(){
-        nome = "Pizza de calabresa";
-        ingredientes = Arrays.asList("queijo", "calabresa", "tomate");
+    public CalzonePresunto(){
+        nome = "Calzone de presunto";
+        ingredientes = Arrays.asList("massa", "presunto");
     }
 
     @Override
@@ -21,5 +21,4 @@ public class PizzaCalabresa implements IPizza {
     public String getNome() {
         return nome;
     }
-
 }
